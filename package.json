@@ -1,6 +1,6 @@
 {
   "name": "@emi2k01/binary-install",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Install binary applications via npm",
   "main": "./index.js",
   "engines": {
