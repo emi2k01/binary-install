@@ -1,5 +1,5 @@
 {
-  "name": "binary-install",
+  "name": "@emi2k01/binary-install",
   "version": "1.0.1",
   "description": "Install binary applications via npm",
   "main": "./index.js",

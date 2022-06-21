@@ -64,7 +64,7 @@ class Binary {
       .then(res => {
         return new Promise((resolve, reject) => {
           const sink = res.data.pipe(
-            tar.x({ strip: 1, C: this.installDirectory })
+            tar.x({ strip: 0, C: this.installDirectory })
           );
           sink.on("finish", () => resolve());
           sink.on("error", err => reject(err));
