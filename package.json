@@ -1,18 +1,30 @@
 {
-  "name": "root",
-  "private": true,
-  "scripts": {
-    "postinstall": "lerna bootstrap --hoist",
-    "clean": "lerna clean && rm -rf node_modules",
-    "test": "lerna run test",
-    "fmt": "prettier --write **/**/*.js",
-    "fmt:check": "prettier --check **/**/*.js"
+  "name": "@emi2k01/binary-install",
+  "version": "1.0.3",
+  "description": "Install binary applications via npm",
+  "main": "./index.js",
+  "engines": {
+    "node": ">=10"
   },
-  "devDependencies": {
-    "lerna": "^3.20.2",
-    "prettier": "^1.19.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EverlastingBugstopper/binary-install.git"
   },
-  "volta": {
-    "node": "16.14.2"
-  }
+  "keywords": [
+    "install",
+    "binary",
+    "global"
+  ],
+  "author": "Avery Harnish <averyharnish@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EverlastingBugstopper/binary-install/issues"
+  },
+  "homepage": "https://github.com/EverlastingBugstopper/binary-install#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "rimraf": "^3.0.2",
+    "tar": "^6.1.11"
+  },
+  "gitHead": "84905ff3c00e1bbaee841275afc92049f05be718"
 }
